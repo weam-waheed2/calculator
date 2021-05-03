@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Baloo 2;
+    text-transform: capitalize;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background: #2b5876;
+    background: linear-gradient(to right, #4e4376, #2b5876); 
+    width: 450px;
+    margin: auto;
+    letter-spacing: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+/*calculator*/
+/*/////////////////////////////////////////////////////////////////////*/
+.calculator {
+    padding: 20px;
+    box-shadow: 0px 1px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+}
+.input {
+    background-color: rgba(255, 255, 255, 0.24);
+    border-radius: 3px;
+    height: 60px;
+    padding-left: 15px;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 1.6rem;
+    transition: all .2s ease-in-out;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+.input:hover {
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.operators div {
+    display: inline-block;
+    border-radius: 15px;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    padding: 2px 10px 10px 10px;
+    margin: 20px 4px 10px 0;
+    background-color: #ddd;
+    transition: border-color .4s ease-in-out, background-color .2s, box-shadow .4s;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.operators div:hover {
+    background-color: rgb(129, 142, 168);
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+.operators div:active {
+    font-weight: bolder;
+}
+.leftPanel {
+    display: inline-block;
+}
+.numbers div {
+    display: inline-block;
+    border-radius: 3px;
+    width: 70px;
+    text-align: center;
+    padding: 9px;
+    margin: 10px 4px 10px 0;
+    background-color: #f9f9f9;
+    transition: border-color .4s ease-in-out, background-color .2s, box-shadow .4s;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.numbers div:hover {
+    background-color: #7262ff;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+.numbers div:active {
+    font-weight: bolder;
+}
+div.equal {
+    display: inline-block;
+    border-radius: 3px;
+    width: 17%;
+    text-align: center;
+    padding: 108px 10px;
+    margin: 10px 6px 10px 0;
+    vertical-align: top;
+    color: #FFF;
+    background-color: #7262ff;
+    transition: all .4s ease-in-out;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.2);
+}
+div.equal:hover {
+    background-color: #5b49ff;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+div.equal:active {
+    font-weight: bolder;
+}
+/*/////////////////////////////////////////////////////////////////////*/
