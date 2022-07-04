@@ -58,10 +58,10 @@ result.addEventListener("click", function () {
     var numbers = inputString.split(/\+|\-|\×|\÷/g);
     var operators = inputString.replace(/[0-9]|\./g, "").split("");
 
-    console.log(inputString);
-    console.log(operators);
-    console.log(numbers);
-    console.log("----------------------------");
+//     console.log(inputString);
+//     console.log(operators);
+//     console.log(numbers);
+//     console.log("----------------------------");
 
 
 
